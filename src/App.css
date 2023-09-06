@@ -1,38 +1,40 @@
+/* App.css */
+
+/* Style for the outer container */
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for the Navbar component */
+.Navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style for the navigation links */
+.Navbar a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Style for the active navigation link */
+.Navbar a.active {
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for the Main and Login pages */
+.page-content {
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Additional styles for Main and Login pages can be added here */
+
+/* Style for footer or other elements if needed */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
 }

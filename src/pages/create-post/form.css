@@ -1,0 +1,59 @@
+/* Container styling */
+/* Container styling with background image */
+form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/01/04/13/virat-kohli.jpg"); /* Replace 'your-background-image.jpg' with the path to your image */
+  background-size: cover; /* This property ensures the background image covers the entire form */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input field styling */
+input[type="text"],
+textarea {
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 15px; /* Increased spacing between inputs */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 300px;
+}
+
+/* Error message styling */
+p {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Add some spacing between the submit button and inputs */
+input[type="submit"] {
+  margin-top: 15px;
+}
+
+.submitbutton: hover {
+  cursor: pointer;
+}

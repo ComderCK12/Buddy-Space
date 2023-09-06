@@ -1,0 +1,82 @@
+/* Post container */
+div.post-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 60px;
+}
+
+/* Title styling */
+div.post-container .title {
+  margin-bottom: 10px;
+}
+
+div.post-container .title h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black; /* Set the text color to black */
+}
+
+/* Body styling */
+div.post-container .body {
+  margin-bottom: 10px;
+}
+
+div.post-container .body p {
+  font-size: 16px;
+  color: black; /* Set the text color to black */
+}
+
+/* Footer styling */
+div.post-container .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent; /* Set the background color to transparent */
+}
+
+div.post-container .footer p {
+  font-size: 14px;
+  color: black; /* Set the text color to black */
+}
+
+/* Like button styling */
+div.post-container .footer button {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Likes count styling */
+div.post-container .footer p.likes {
+  font-weight: bold;
+}
+
+.post-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-bar p {
+  margin: 0;
+  font-weight: bold;
+  color: black;
+}
+
+.post-bar-photo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Make it a circle */
+  object-fit: cover;
+}

@@ -1,0 +1,71 @@
+/* navbar.css */
+
+/* Style for the outer container */
+.navbar-container {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle elevation effect */
+    margin-bottom: 40px;
+  }
+  
+  /* Style for the navigation links */
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+    margin-right: 20px;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  /* Change link color on hover */
+  .navbar-link:hover {
+    color: #ffcc00; /* Hovered link text color (yellow) */
+  }
+  
+  /* Style for user information */
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-name {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ffcc00; /* User name color (yellow) */
+    padding-top: 20px;
+  }
+  
+  .user-avatar {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  /* Style for the Log Out button */
+  .user-logout-button {
+    background-color: #ffcc00; /* Button background color (yellow) */
+    color: #333; /* Button text color (dark) */
+    border: none;
+    padding: 6px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+  
+  .user-logout-button:hover {
+    background-color: #fff; /* Hovered button background color (white) */
+    color: #ffcc00; /* Hovered button text color (yellow) */
+  }
+  
